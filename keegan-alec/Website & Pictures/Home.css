@@ -1,0 +1,77 @@
+body {background-image: url("Background.jpg")}
+#Logo {position: absolute;
+			color: white;
+			font-family: century Gothic;
+			
+	}
+#Developers {position: absolute; 
+			top: 480px;
+			left:800px;
+		}
+#Description {position: absolute;
+				background-color: black;
+				opacity: .9;
+				left: 300px;
+				top: 160px;
+				width:  1250px;
+				height: 1200px;
+				color: white;
+				font-family: century gothic;
+				font-size: 20px;
+				padding-left:14px;
+				padding-right:14px;
+				}
+#Quote		{position: absolute;
+				left: 700px;
+				top: 300px;
+				color: white;
+				font-family: century gothic;
+				font-size: 20px;
+			}
+#Link1		{position: absolute;
+				left: 600px;
+				top: 100px;
+				
+			}
+				
+#Link2		{position: absolute;
+				left: 950px;
+				top: 100px;
+			
+			}
+#Link3    	{position: absolute;
+				left: 1250px;
+				top: 100px;
+			}
+#Link4		{position: absolute;
+				left: 400px;
+				top: 100px;
+			}
+#DevHead	{position: absolute;
+				color: white;
+				font-family: century gothic;
+				left: 800px;
+				top: 400px;
+			}
+
+a:link 	{color: white;
+			font-family: century gothic;
+			text-decoration: none;
+			font-size: 20px
+		}
+		
+a:visitied	{color: white;
+			font-family: century gothic;
+			text-decoration: none;
+			font-size: 20px
+			}
+a:hover   	{color: #BDBDBD;
+			font-family: century gothic;
+			text-decoration: none;
+			font-size: 20px
+			}
+a:active 	{color: white;
+			font-family: century gothic;
+			text-decoration: none;
+			font-size: 20px
+			}

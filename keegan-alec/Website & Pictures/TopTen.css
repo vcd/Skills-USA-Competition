@@ -1,0 +1,161 @@
+body {background-image: url("Top10Background.jpg")}
+#GameBox {position: absolute;
+				background-color: black;
+				opacity: .7;
+				left: 300px;
+				top: 160px;
+				width: 1250px;
+				height: 600px;
+				color: white;
+				font-family: century gothic;
+				font-size: 20px;
+				padding-left:14px;
+				padding-right:14px;
+				font-size: 30;
+				}
+#Header {position: absolute;
+			font-family: century gothic;
+			font-size: 30;
+			opacity: .7;
+			top: 240px;
+			left: 300px;
+			width: 500px;
+			}
+			
+#Game1 {position: absolute;
+			font-family: arial;
+			color: white;
+			font-size: 20;
+			left: 360px;
+			top: 420px;
+			width: 200px;
+			height: 250px;
+			}
+
+#Game2 {position: absolute;
+			font-family: arial;
+			font-weight: 100;
+			color: white;
+			font-size: 20;
+			left: 600px;
+			top: 420px;
+			width: 200px;
+			height: 250px;
+			}
+#Game3 {position: absolute;
+			font-family: arial;
+			color: white;
+			font-size: 20;
+			left: 860px;
+			top: 420px;
+			width: 200px;
+			height: 250px;
+			
+			}
+#Game4 {position: absolute;
+			font-family: arial;
+			color: white;
+			font-size: 20;
+			left: 1100px;
+			top: 420px;
+			width: 200px;
+			height: 250px;
+			}
+#Game5 {position: absolute;
+			font-family: arial;
+			color: white;
+			font-size: 20;
+			left: 1340px;
+			top: 420px;
+			width: 200px;
+			height: 250px;
+			}
+#Game6 {position: absolute;
+			font-family: arial;
+			color: white;
+			font-size: 20;
+			left: 360px;
+			top: 860px;
+			width: 200px;
+			height: 250px;
+			}
+#Game7 {position: absolute;
+			font-family: arial;
+			color: white;
+			font-size: 20;
+			left: 600px;
+			top: 860px;
+			width: 200px;
+			height: 250px;
+			}
+#Game8 {position: absolute;
+			font-family: arial;
+			color: white;
+			font-size: 20;
+			left: 860px;
+			top: 860px;
+			width: 200px;
+			height: 250px;
+			}
+#Game9 {position: absolute;
+			font-family: arial;
+			color: white;
+			font-size: 20;
+			left: 1100px;
+			top: 860px;
+			width: 200px;
+			height: 250px;
+			}
+#Game10 {position: absolute;
+			font-family: arial;
+			color: white;
+			font-size: 20;
+			left: 1340px;
+			top: 860px;
+			width: 200px;
+			height: 250px
+			}			
+#Logo {position: absolute;
+			color: white;
+			font-family: century Gothic;
+			
+	}
+#Link1		{position: absolute;
+				left: 650px;
+				top: 100px;
+			}
+				
+#Link2		{position: absolute;
+				left: 950px;
+				top: 100px;
+			
+			}
+#Link3    	{position: absolute;
+				left: 1250px;
+				top: 100px;
+			}
+#Link4		{position: absolute;
+				left: 375px;
+				top: 100px;
+			}
+a:link 	{color: white;
+			font-family: century gothic;
+			text-decoration: none;
+			font-size: 20px
+		}
+		
+a:visitied	{color: white;
+			font-family: century gothic;
+			text-decoration: none;
+			font-size: 20px
+			}
+a:hover   	{color: #BDBDBD;
+			font-family: century gothic;
+			text-decoration: none;
+			font-size: 20px
+			}
+a:active 	{color: white;
+			font-family: century gothic;
+			text-decoration: none;
+			font-size: 20px
+			}

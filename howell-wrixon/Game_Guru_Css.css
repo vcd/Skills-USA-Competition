@@ -1,0 +1,93 @@
+body{background-image: url("Game_Guru_Background.png");}
+a{text-decoration:none;
+	color:white;}
+p{font-family:"Trebuchet MS";
+	font-size:20px;
+	color:white;
+}
+select{border:0px;
+	outline:0px;
+	color:white;
+	background-color: black;
+	}
+ul{list-style-type: none;
+	}
+li{font-size:17px;}
+u{font-family:"Trebuchet MS";}
+#Logo{position: absolute;
+		top:15px;
+		left:15px;
+		text-align: center;
+	}
+#Tab1{position:absolute;
+	top:40px;
+	left:400px;}
+#Tab2{position:absolute;
+	top:40px;
+	left:700px;}
+#Tab3{position:absolute;
+	top:40px;
+	left:950px;}
+#Week_Title{color:#C41B12;
+	font-family:"Trebuchet MS";
+	position:absolute;
+	top:80px;
+	left:770px;
+	
+	font-size:20px;
+	}
+#Week_Game_Name{
+font-family:"Trebuchet MS";
+font-size:25px;
+color:#C46109;
+position:absolute;
+top:-60px;
+text-align:center;
+}
+#Week_Background{background-color:black;
+	width:1100px;
+	height:730px;
+	position: absolute;
+	top: 200px;
+	left:400px;
+	}
+#Top_Ten1{color:white;
+	position:absolute;
+	top:200px;
+	left:600px;
+	font-family:"Trebuchet MS";
+	text-align: center;
+	}
+#Top_Ten2{color:white;
+	position:absolute;
+	top: 200px;
+	left:900px;
+	font-family:"Trebuchet MS";
+	text-align: center;
+	}
+#Top_Ten_Title{color: white;
+	font-family:"Trebuchet MS";
+	position: absolute;
+	top: 150px;
+	left: 600px;
+	}
+#Week_Fav_Cat{
+top:200px;
+color:white;
+position: absolute;
+}
+#Main_Quote{position: absolute;
+		top: 200px;
+		left: 250px;
+		}
+#Review{
+top:200px;
+position: relative;
+text-align: center;
+
+}
+#Guru_Site_Description{
+		position: absolute;
+		top: 400px;
+		left: 650px;
+		}

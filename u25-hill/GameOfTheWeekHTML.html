@@ -1,0 +1,56 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Game Guru's Game of the Week</title>
+		<link rel="stylesheet" type = "text/css" href ="GameOfTheWeekcss.css">	
+	</head>
+	
+	<body>
+	<div id = "logo">
+		<img src = "dyinglightlogo.png">
+	</div>
+	<div id = "video">
+		<iframe width="760" height="440" src="https://www.youtube.com/embed/VlEO8Swxz-k" frameborder="0" allowfullscreen></iframe>
+	</div>	
+<div id="menu"> <a href = "GameReviewhtml.html"><img src = "paper.png"></a> <a href = "GameOfTheWeekhtml.html"><img src = "controller.png"></a> <a href ="Top Ten.html"><img src = "home.png"></a><h2>></h2></div>	
+		<div id= parabg>
+		<p>  </p>
+		</div>
+		<div id= para>
+		<p> Dying Light is a horror action game, by Techland studios. In the game, you play as a soldier, sent in undercover to a zombie infected city, tasked with recovering sensitive documents stolen from the GRE. 
+<br>  <br>Gameplay: Dying Light is similar to Techland's other zombie title, Dead Island, but adds many new twists to the typical zombie slasher game. Your character is forced to traverse the rooftops of the zombie-ridden Middle Eastern city, and parkour your way through the town. The parkour mechanics were
+developed by the inventor of the sport himself, and has a very realistic feel to it. Adding verticality to a zombie game makes traveling to place much more enjoyable. The combat system is very rough, however, as there are only a few different moves your character can perform. The guns is the game are essentially worthless, 
+except for taking down the occasional human enemy. The combat in Dying Light is sorely lacking the finesce that a zombie killing game should bring, but makes up for it in an
+innovative parkour mechanic. <br> <big><big><big>Gameplay 8/10</big></big></big> <br> <br>Graphics: As we move into the net generation consoles, so do the graphics. However, it seems Techland has taken a step back, rather than forward. Instead of running at 60 FPS like the consoles are capable of, 
+the game runs at a measly 30 FPS, not even displaying in full 1080p. The PC version is littered with tearing, FPS drops, and bad grain effects. The game may be fun to play, but is not a beauty to look at. <br> <big><big><big>Graphics 6/10</big></big></big> <br> <br>Online Interactions: Dying light offers a 4 player co-op mode, and this
+is where the game really stands out. Killing endless zombies is fun, but doing it with 3 other friends is amazing. Half the time you spend in this game is goofing around with your friends, or trying to blow them up. The co-op is seemless, and the connection is very good. If you have friends to play with, then beating the game in co-op is definitely the way to go. <br>
+<big><big><big>Online Interactions 10/10</big></big></big> <br> <br>Overall, this game is definitely worth playing. If you're playing solo, then you might want to rent, but if you have other friends with the game, then it is a must have. <br>
+<big><big><big>Overall Rating - 9/10</p>
+
+
+		
+	</body>
+	<script>
+		gameCategories = ['Shooters','RPGs','Fighters'];
+		games = ['Star Wars Battlefront','Battlefield 4','Halo Reach'];
+		gameCounter = 0;
+		writeInfo();
+		function writeInfo() {
+			if (gameCounter >= games.length) {
+				gameCounter = 0;
+			}
+			if (gameCounter === 0) {
+				games = ['Star Wars Battlefront','Battlefield 4','Halo Reach'];
+			} else if (gameCounter === 1) {
+				games = ['Skyrim','Final Fantasy VII','Dragon Age: Inquisition'];
+			} else {
+				games = ['Super Smash Bros. Melee','Mortal Kombat IV','Street Fighter'];
+			}
+			var category = document.getElementByID("category");
+			category.innerHTML = gameCategories[gameCounter];
+			for (i = 0; i < 2; i ++) {
+				category.innerHTML += games[i];
+			}
+		}
+	</script>
+	</html>

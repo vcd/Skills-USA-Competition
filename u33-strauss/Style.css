@@ -1,0 +1,65 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background:#666;
+}
+#Container {
+	background:#ffffff;
+	box-shadow: -2px 2px 4px 1px #000000;			
+}
+#logo {
+	padding-left:5px;
+	
+}
+#NavBar {
+	text-align:center;
+	font-size: 20px;
+	/*border: #FFF solid thin; */
+	margin:0px;
+	padding:0px;
+	display:block;
+	text-decoration:underline;
+}
+
+#Home {
+	background:#CCC;
+	box-shadow: -2px 2px 4px 1px #000000;
+	font:Verdana, Geneva, sans-serif;	
+	
+}
+#TopTen {
+	background:#CCC;
+	box-shadow: -2px 2px 4px 1px #000000;	
+	font:Verdana, Geneva, sans-serif;	
+}
+#GameOfWeek {
+	background: #CCC;
+	box-shadow: -2px 2px 4px 1px #000000;
+	font:Verdana, Geneva, sans-serif;			
+}
+#GameReview {
+	background: #CCC;
+	box-shadow: -2px 2px 4px 1px #000000;
+	font:Verdana, Geneva, sans-serif;			
+	
+}
+ConTitle {
+	font-size:75px;
+	background-color:#999;
+	float:right;
+	
+		
+}
+#Footer {
+	text-align:center;
+	font-size:18px;
+	
+}
+p {
+	padding:1px;
+	
+}
+img {
+	float: center;	
+}

@@ -1,0 +1,1 @@
+The link between Top 10 HTML and Game of the Week is broken, so you have to manually go between the two. Parts of the project are not fully finished due to time restraints as well.

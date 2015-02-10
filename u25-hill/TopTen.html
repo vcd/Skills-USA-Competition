@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="TopTenCSS.css">
+		<title>Top Ten</title>
+	</head>
+	<body>
+		
+		<div id="video"><h1>Video</h1></div>
+		<div id="title">Test</div>
+		<div id="gameDescription"><h1>Game Description</h1></div>
+		<div id="menu"> <img src = "home.png"><h2>Menu</h2></div>
+		<button type="button" onclick="gameCounter ++; writeInfo();" id="button">Next</button>
+	</body>
+	<script>
+		// 39 = keycode for right arrow; 37 = keycode for left arrow
+		games = ['Dying Light','Smash Bros.','3','4','5','','','','',''];
+		gameVideos = ['<iframe width="560" height="315" src="https://www.youtube.com/embed/xvudMu-5kIU" frameborder="0" allowfullscreen></iframe>','<iframe width="560" height="315" src="https://www.youtube.com/embed/4rbOTQhasnM" frameborder="0" allowfullscreen></iframe>','<iframe width="560" height="315" src="https://www.youtube.com/embed/Dx-DT8wUY80" frameborder="0" allowfullscreen></iframe>','<iframe width="560" height="315" src="https://www.youtube.com/embed/mVWhWsgHzKM" frameborder="0" allowfullscreen></iframe>','<iframe width="420" height="315" src="https://www.youtube.com/embed/sq-IeLGqzlc" frameborder="0" allowfullscreen></iframe>','<iframe width="560" height="315" src="https://www.youtube.com/embed/Gu8VDUDzxkM" frameborder="0" allowfullscreen></iframe>','<iframe width="420" height="315" src="https://www.youtube.com/embed/ilwPny3tvOE" frameborder="0" allowfullscreen></iframe>','<iframe width="560" height="315" src="https://www.youtube.com/embed/PjqsYzBrP-M" frameborder="0" allowfullscreen></iframe>','<iframe width="560" height="315" src="https://www.youtube.com/embed/PqdwT2pKYzY" frameborder="0" allowfullscreen></iframe>','<iframe width="560" height="315" src="https://www.youtube.com/embed/-VaQfsRQ65w" frameborder="0" allowfullscreen></iframe>'];
+		gameDescription = ['10. Super Smash Bros. is an action fighting game, developed by Nintendo. In the game, you can play as many fighters, all from the Nintendo universe. Rating: 8/10','9. Shadow of Mordor is a stealth action game, created by Monolith studios. It won game of the year. Rating: 9/10.','8. Outlast is a horror game, where you are forced to run and hide rather than fight. Rating: 9/10','7. Assassins Creed 2 is the second installment in Ubisofts Assassins Creed Series, and is also the best. Rating: 9/10.','6. Pokemon Fire Red is a remake of the original gameboy games Pokemon Red and Blue, and completely remasters them into a perfect remake. Rating 9/10','5. Halo Reach is by far the best Halo game for online multiplayer. Bungie perfected the "forge" system in this game, where players can amake their own maps, and play them online. Rating 9/10.','4. Star Wars Battlefront 2 is by far the best shooter ever made. Combining a shooter game in the Star Wars universe is pure perfection. Rating 9.5/10','3. The Elder Scrolls V: Skyrim is the latest entry in The Elder Scrolls series, and made the most improvements over its previous titles. An awesome story, and amazing skill based RPG elements make this one of the best games ever made. Rating 10/10','2. The Legend of Zelda: Majoras Mask is the second Legend of Zelda game for the Nintendo 64, and improved upon the first in every way. It was a heartfelt, emotional journey, and is one of the best games ever made. Rating: 10/10','1. Batman: Arkham City. This game blew the previous out of the water, and is the best fighting game of all time, and quite possibly the best overall game of all time. The gameplay is super fun and addicting, the story is brilliant, and the side quest keep you playing for hours on end. This game is flawless. Rating: 10/10'];
+		gameCounter = 0;
+		writeInfo();
+		function writeInfo() {
+			if (gameCounter >= games.length) {
+				gameCounter = 0;
+			}
+			document.getElementById("title").innerHTML = games[gameCounter];
+		}
+	</script>
+</html>

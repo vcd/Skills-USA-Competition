@@ -1,0 +1,60 @@
+
+#logo {position: absolute;
+			top: 160px;
+			left: 150px;
+			
+}
+body {
+	background-image: url("dyinglightwall.jpeg");
+	}
+#video {position: absolute;
+			top: 490px;
+			left: 1000px;
+			}
+#para {position: absolute;
+			height:310px;
+			width: 740px;
+			box-shadow: 5px 5px 5px Black;
+			border: 2px solid #CC6C06;
+			text-shadow: 1px 1px Black;
+			color: #CC6C06;
+			top:495px;
+			padding: 30px;
+			font-size: 18px;
+			overflow: auto;
+			font-family: Verdana MS;
+			border-radius: 5px;
+			
+			}
+			
+#parabg {position: absolute;
+			top: 495px;
+			height: 375px;
+			width: 802px;
+			opacity: .6;
+			background-color: black;
+			border-radius: 5px;
+			}
+			
+#category {position: absolute;
+			height:200px;
+			width: 300px;
+			box-shadow: 5px 5px 5px Black;
+			border: 2px solid #CC6C06;
+			text-shadow: 1px 1px Black;
+			color: #CC6C06;
+			top:5%;
+			right:20%;
+			padding: 30px;
+			font-size: 18px;
+			overflow: auto;
+			font-family: Verdana MS;
+			border-radius: 5px;
+			
+			}
+			
+#button{
+	position:absolute;
+	top:5%;
+	left:90%;
+	}

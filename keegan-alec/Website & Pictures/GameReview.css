@@ -1,0 +1,77 @@
+body {background-image: url("Background.jpg")}
+
+#Form1	{position: absolute;
+			color: white;
+			font-family: century gothic;
+			top: 500px;
+			left: 650px;
+		}
+#Form2 	{position: absolute;
+			color: white;
+			font-family: century gothic;
+			top: 550px;
+			left: 650px;
+		}
+
+#SAGRHead
+		{position: absolute;
+			color: white;
+			font-family: century gothic;
+			font-size: 20px;
+			left: 650px;
+			top: 135px;
+			}
+			
+#Logo {position: absolute;
+			color: white;
+			font-family: century Gothic;
+			
+	}
+#Submit	
+		{position: absolute;
+			left: 650px;
+			top: 630px;
+			background-color: grey;
+			width: 85px;
+			padding-left: 15px;
+		}
+			
+#Link1		{position: absolute;
+				left: 650px;
+				top: 100px;
+			}
+				
+#Link2		{position: absolute;
+				left: 950px;
+				top: 100px;
+			
+			}
+#Link3    	{position: absolute;
+				left: 1250px;
+				top: 100px;
+			}
+#Link4		{position: absolute;
+				left: 375px;
+				top: 100px;
+			}
+a:link 	{color: white;
+			font-family: century gothic;
+			text-decoration: none;
+			font-size: 20px
+		}
+		
+a:visitied	{color: white;
+			font-family: century gothic;
+			text-decoration: none;
+			font-size: 20px
+			}
+a:hover   	{color: #BDBDBD;
+			font-family: century gothic;
+			text-decoration: none;
+			font-size: 20px
+			}
+a:active 	{color: white;
+			font-family: century gothic;
+			text-decoration: none;
+			font-size: 20px
+			}

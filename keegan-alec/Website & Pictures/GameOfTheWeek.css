@@ -1,0 +1,67 @@
+body {background-image: url("Background.jpg")}
+#Logo {position: absolute;
+			color: white;
+			font-family: century Gothic;
+			
+	}
+#GameOfTheWeekTitle {position: absolute;
+					top: 230px;
+					left: 740px;
+					font-size: 120;
+					font-family: century gothic;
+					color: white;
+					}
+#GameReview {position: absolute;
+				top: 450px;
+				left: 600px;
+				width: 700px;
+				height: 600px;
+				color: white;
+				font-family: century gothic;
+				font-size: 20;
+				}
+#GameOfTheWeek {position: absolute;
+					top: 275px;
+					left: 775px;
+					font-family: century gothic;
+					color: white;
+					}
+#Link1		{position: absolute;
+				left: 650px;
+				top: 100px;
+			}
+				
+#Link2		{position: absolute;
+				left: 950px;
+				top: 100px;
+			
+			}
+#Link3    	{position: absolute;
+				left: 1250px;
+				top: 100px;
+			}
+#Link4		{position: absolute;
+				left: 375px;
+				top: 100px;
+			}
+a:link 	{color: white;
+			font-family: century gothic;
+			text-decoration: none;
+			font-size: 20px
+		}
+		
+a:visitied	{color: white;
+			font-family: century gothic;
+			text-decoration: none;
+			font-size: 20px
+			}
+a:hover   	{color: #BDBDBD;
+			font-family: century gothic;
+			text-decoration: none;
+			font-size: 20px
+			}
+a:active 	{color: white;
+			font-family: century gothic;
+			text-decoration: none;
+			font-size: 20px
+			}
